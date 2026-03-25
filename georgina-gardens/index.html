@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgina Gardens Hotel | Kampala, Uganda</title>
+    <meta
+      name="description"
+      content="Georgina Gardens Hotel — luxury hotel in Lubya, Kampala. Rooms, pool, restaurant, sauna, gym and more."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">
+          <span class="logo-icon">🌿</span>
+          <span>Georgina Gardens</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#menu">Restaurant</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button
+            class="btn-dark-toggle"
+            id="darkToggle"
+            title="Toggle dark mode"
+          >
+            🌙
+          </button>
+          <a href="#contact" class="btn-book">Book Now</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-slides">
+        <div
+          class="hero-slide active"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&q=80&quot;);
+          "
+        ></div>
+        <div
+          class="hero-slide"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&q=80&quot;);
+          "
+        ></div>
+        <div
+          class="hero-slide"
+          style="
+            background-image: url(&quot;https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1600&q=80&quot;);
+          "
+        ></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-tagline">Welcome to Kampala's Finest</p>
+        <h1>Georgina Gardens Hotel</h1>
+        <p class="hero-sub">
+          Luxury, comfort and warmth — right in the heart of Lubya, Kampala
+        </p>
+        <div class="hero-btns">
+          <a href="#rooms" class="btn-primary">Explore Rooms</a>
+          <a href="#contact" class="btn-outline">Book a Stay</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll down</span>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Offer</span>
+          <h2>Our Signature Services</h2>
+          <p>
+            Everything you need for a perfect stay, all under one roof in Lubya,
+            Kampala
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon">🏊</div>
+            <h3>Swimming Pool</h3>
+            <p>Refresh in our sparkling outdoor pool</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🛏️</div>
+            <h3>Accommodation</h3>
+            <p>Stylish rooms designed for your comfort</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🔥</div>
+            <h3>Sauna & Steam</h3>
+            <p>Relax and rejuvenate your body and mind</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🍽️</div>
+            <h3>Restaurant</h3>
+            <p>Authentic Ugandan and international cuisine</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🚗</div>
+            <h3>Secure Parking</h3>
+            <p>Spacious, safe parking on-site</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🏋️</div>
+            <h3>Gym & Fitness</h3>
+            <p>Modern equipment to keep you in shape</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🎠</div>
+            <h3>Kids Park</h3>
+            <p>A safe, fun haven for the little ones</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">🥘</div>
+            <h3>Outside Catering</h3>
+            <p>We bring our kitchen to your event</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOMS -->
+    <section class="rooms section" id="rooms">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Rest Easy</span>
+          <h2>Rooms & Tariff</h2>
+          <p>Choose your perfect room — all include breakfast and free WiFi</p>
+        </div>
+        <div class="rooms-grid">
+          <div class="room-card reveal">
+            <div
+              class="room-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80&quot;);
+              "
+            >
+              <span class="room-badge">Popular</span>
+            </div>
+            <div class="room-info">
+              <h3>Standard Room</h3>
+              <ul class="room-features">
+                <li>Queen Bed</li>
+                <li>AC & WiFi</li>
+                <li>Hot Shower</li>
+              </ul>
+              <div class="room-footer">
+                <span class="room-price"
+                  >UGX 100,000 <small>/night</small></span
+                >
+                <a href="#contact" class="btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="room-card reveal">
+            <div
+              class="room-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="room-info">
+              <h3>Standard Deluxe Room</h3>
+              <ul class="room-features">
+                <li>King Bed</li>
+                <li>Mini Fridge</li>
+                <li>City View</li>
+              </ul>
+              <div class="room-footer">
+                <span class="room-price"
+                  >UGX 150,000 <small>/night</small></span
+                >
+                <a href="#contact" class="btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="room-card reveal">
+            <div
+              class="room-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="room-info">
+              <h3>Double Standard Room</h3>
+              <ul class="room-features">
+                <li>2 Queen Beds</li>
+                <li>Sitting Area</li>
+                <li>WiFi</li>
+              </ul>
+              <div class="room-footer">
+                <span class="room-price"
+                  >UGX 200,000 <small>/night</small></span
+                >
+                <a href="#contact" class="btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="room-card reveal">
+            <div
+              class="room-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80&quot;);
+              "
+            ></div>
+            <div class="room-info">
+              <h3>Twin Room</h3>
+              <ul class="room-features">
+                <li>2 Single Beds</li>
+                <li>Garden View</li>
+                <li>Balcony</li>
+              </ul>
+              <div class="room-footer">
+                <span class="room-price"
+                  >UGX 300,000 <small>/night</small></span
+                >
+                <a href="#contact" class="btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="room-card featured reveal">
+            <div
+              class="room-img"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80&quot;);
+              "
+            >
+              <span class="room-badge badge-gold">Executive</span>
+            </div>
+            <div class="room-info">
+              <h3>Executive Room</h3>
+              <ul class="room-features">
+                <li>King Bed + Sofa</li>
+                <li>Lounge Area</li>
+                <li>Premium Amenities</li>
+              </ul>
+              <div class="room-footer">
+                <span class="room-price"
+                  >UGX 370,000 <small>/night</small></span
+                >
+                <a href="#contact" class="btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESTAURANT MENU -->
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Taste of Uganda</span>
+          <h2>Our Restaurant</h2>
+          <p>
+            Fresh local ingredients — from the gardens of Uganda to your plate
+          </p>
+        </div>
+        <div class="menu-tabs reveal">
+          <button class="menu-tab active" data-tab="mains">Main Dishes</button>
+          <button class="menu-tab" data-tab="drinks">Drinks</button>
+          <button class="menu-tab" data-tab="breakfast">Breakfast</button>
+        </div>
+        <div class="menu-content active" id="tab-mains">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-name">Rolex (Chapati & Eggs)</span
+              ><span class="menu-price">UGX 5,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Matoke with Groundnut Stew</span
+              ><span class="menu-price">UGX 15,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Grilled Tilapia (Lake Victoria)</span
+              ><span class="menu-price">UGX 35,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Luwombo (Steamed Chicken)</span
+              ><span class="menu-price">UGX 40,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Beef Stew with Posho</span
+              ><span class="menu-price">UGX 20,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Fried Nile Perch & Chips</span
+              ><span class="menu-price">UGX 30,000</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-content" id="tab-drinks">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-name">Passion Fruit Juice (Fresh)</span
+              ><span class="menu-price">UGX 5,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Waragi Cocktail</span
+              ><span class="menu-price">UGX 18,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Nile Special Beer</span
+              ><span class="menu-price">UGX 8,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Masala Chai</span
+              ><span class="menu-price">UGX 4,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Mango Juice (Fresh)</span
+              ><span class="menu-price">UGX 5,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Ugandan Coffee (Arabica)</span
+              ><span class="menu-price">UGX 6,000</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-content" id="tab-breakfast">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-name">Full English Breakfast</span
+              ><span class="menu-price">UGX 25,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Mandazi & Tea</span
+              ><span class="menu-price">UGX 6,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Fresh Fruit Platter</span
+              ><span class="menu-price">UGX 12,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Millet / Maize Porridge</span
+              ><span class="menu-price">UGX 4,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Chapati & Beans</span
+              ><span class="menu-price">UGX 8,000</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-name">Fried Eggs & Bread</span
+              ><span class="menu-price">UGX 7,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">See for Yourself</span>
+          <h2>Gallery</h2>
+          <p>A glimpse of what awaits you at Georgina Gardens</p>
+        </div>
+        <div class="gallery-grid reveal">
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+          <div
+            class="gallery-item"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80&quot;);
+            "
+          >
+            <div class="gallery-overlay"><i class="fa fa-expand"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="Gallery image" />
+    </div>
+
+    <!-- CONTACT -->
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get in Touch</span>
+          <h2>Contact & Booking</h2>
+          <p>We'll confirm your booking within 24 hours</p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info reveal">
+            <h3>Visit Us</h3>
+            <p><i class="fa fa-map-marker-alt"></i> Lubya, Kampala, Uganda</p>
+            <p><i class="fa fa-phone"></i> +256 709 884 276</p>
+            <p><i class="fa fa-envelope"></i> ibrahimlwanyaga2@gmail.com</p>
+            <a
+              href="https://wa.me/256709884276?text=Hello!%20I'd%20like%20to%20book%20a%20room%20at%20Georgina%20Gardens%20Hotel."
+              class="btn-whatsapp"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.757!2d32.5485!3d0.3476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb7d4cda6b4b%3A0x2b9a2ac77b3e00d6!2sLubya%2C%20Kampala!5e0!3m2!1sen!2sug!4v1700000000"
+                width="100%"
+                height="220"
+                style="border: 0; border-radius: 12px"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            id="contactForm"
+            action="https://formspree.io/f/mzdkpyjl"
+            method="POST"
+          >
+            <input type="hidden" name="_replyto" value="reonward3@gmail.com" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Booking Request — Georgina Gardens Hotel"
+            />
+            <h3>Request a Booking</h3>
+            <div class="form-group">
+              <label>Your Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="e.g. John Mukasa"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Phone / Email</label>
+              <input
+                type="text"
+                name="contact"
+                placeholder="+256 or email address"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Check-in Date</label>
+                <input type="date" name="checkin" required />
+              </div>
+              <div class="form-group">
+                <label>Check-out Date</label>
+                <input type="date" name="checkout" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Room Type</label>
+              <select name="room_type">
+                <option>Standard Room — UGX 100,000</option>
+                <option>Standard Deluxe — UGX 150,000</option>
+                <option>Double Standard — UGX 200,000</option>
+                <option>Twin Room — UGX 300,000</option>
+                <option>Executive Room — UGX 370,000</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message (optional)</label>
+              <textarea
+                name="message"
+                placeholder="Any special requests?"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              Send Booking Request
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ Request sent! We'll reply within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h4>Georgina Gardens Hotel</h4>
+            <p>
+              Lubya, Kampala, Uganda.<br />The finest hotel experience in the
+              Pearl of Africa. Built with passion for our guests.
+            </p>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#rooms">Rooms</a></li>
+              <li><a href="#menu">Restaurant</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Follow & Connect</h4>
+            <div class="footer-socials">
+              <a
+                href="https://www.tiktok.com/@reonward2"
+                target="_blank"
+                title="TikTok"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/mr.reon.ward"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.x.com/ReonWard"
+                target="_blank"
+                title="X / Twitter"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+              <a
+                href="https://wa.me/256709884276"
+                target="_blank"
+                title="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+            <p style="margin-top: 18px; font-size: 0.85rem; opacity: 0.6">
+              +256 709 884 276
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Georgina Gardens Hotel, Lubya — Kampala, Uganda. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
